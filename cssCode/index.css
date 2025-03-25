@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-image: url("../Assets/Backimg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+.index-color {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.netflex-logo-with-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.netflex-logo {
+  width: 120px;
+}
+.netflex-button {
+  background-color: red;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.netflex-button a {
+  color: white;
+  text-decoration: none;
+}
+.netflex-button:hover {
+  background-color: rgb(205, 0, 0);
+}
+.main-Email-Get-started {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+  padding: 20px;
+}
+.main-heading {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: clamp(24px, 5vw, 60px);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Money-heading,
+.reading-watch {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: clamp(12px, 2vw, 20px);
+  text-align: center;
+}
+.email {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.InputEmail {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: clamp(12px, 2vw, 15px);
+  background-color: transparent;
+  border: 2px ridge black;
+  border-radius: 6px;
+  transition: border 0.3s, box-shadow 0.3s, background-color 0.3s;
+  color: white;
+}
+.InputEmail:focus {
+  border: 2px solid red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.Get-started {
+  background-color: red;
+  padding: 10px 15px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: clamp(12px, 2vw, 15px);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.Get-started:hover {
+  background-color: rgb(165, 9, 9);
+}
+
+/* croaser */
+.carousel-container {
+  background: linear-gradient(180deg, #000000, #000000);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.4s ease;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.card {
+min-width: 300px;
+  margin: 10px;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.card img {
+  width: 400px;
+  height: 250px;
+  /* object-fit: contain; */
+  background-size: contain;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+/* cards */
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(180deg, #000000, #000000);
+  flex-wrap: wrap;
+}
+
+.cards {
+  background: linear-gradient(180deg, #181717, #181855);
+  flex: 1 1 350px;
+  cursor: pointer;
+  width: 70px;
+  height: 34vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cards:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.emoji {
+  display: flex;
+  font-size: 30px;
+  align-items:flex-end;
+  margin-top: 10px;
+}
+/* last rows */
+
+.faq-container {
+  width: 100%;
+  background: linear-gradient(180deg, #000000, #000000);
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.faq-item {
+  background-color: #444;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.faq-item:hover {
+  background-color: #555;
+}
+
+.faq-item p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.plus-icon {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ccc;
+}
+/* footer */
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+
+  padding: 40px 20px;
+  background-color: #141414;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.footer input[type="email"] {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid black;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 2px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.footer input[type="email"]:focus {
+  border: 2px solid red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transition: border 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.footer-input-button {
+  width: 50%;
+}
+.footer button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.footer button:hover {
+  background-color: #f40612;
+}
+
+.footer .links {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.footer .links a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer .links a:hover {
+  color: #fff;
+}
+
+.footer select {
+  margin-top: 20px;
+  background-color: #141414;
+  color: #fff;
+  border: 1px solid #757575;
+  padding: 5px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .netflex-logo-with-button {
+    padding: 10px 20px;
+  }
+  .main-Email-Get-started {
+    padding: 10px;
+    gap: 15px;
+  }
+ 
+}
