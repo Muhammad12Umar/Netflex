@@ -134,9 +134,9 @@
 }
 
 .card {
-min-width: 300px;
+  min-width: 220px;
   margin: 10px;
-  
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
@@ -221,7 +221,7 @@ p {
 .emoji {
   display: flex;
   font-size: 30px;
-  align-items:flex-end;
+  align-items: flex-end;
   margin-top: 10px;
 }
 /* last rows */
@@ -261,7 +261,7 @@ h2 {
 }
 
 .plus-icon {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bold;
   color: #ccc;
 }
@@ -273,9 +273,9 @@ h2 {
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   box-sizing: border-box;
   width: 100%;
 
@@ -346,7 +346,9 @@ h2 {
   background-color: #141414;
   color: #fff;
   border: 1px solid #757575;
-  padding: 5px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
   border-radius: 2px;
   outline: none;
   cursor: pointer;
@@ -359,5 +361,4 @@ h2 {
     padding: 10px;
     gap: 15px;
   }
- 
 }
