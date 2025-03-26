@@ -352,6 +352,14 @@ h2 {
   outline: none;
   cursor: pointer;
 }
+.footer-input-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  align-items: center;
+}
 @media (max-width: 768px) {
   .email {
     display: flex;
