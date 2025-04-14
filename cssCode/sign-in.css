@@ -1,118 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background-image: url("../Assets/Backimg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+  background-image: url("../Assets/Backimg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 .netflex-logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .netflex-logo img {
-    width: 150px;
+  width: 150px;
 }
 
 .color {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 h4 {
-    font-size: 26px;
-    margin-bottom: 20px;
+  font-size: 26px;
+  margin-bottom: 20px;
 }
 
 input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    background-color: #333;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    outline: none;
-    font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
 }
-button a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+input:focus {
+  outline: none;
+  border: 2px solid red;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px #4caf50;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #e50914;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #f40612;
+  background-color: #f40612;
 }
 
 .remember-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
-    .color {
-        width: 90%;
-        padding: 30px;
-    }
+  .color {
+    width: 90%;
+    padding: 30px;
+  }
 
-    h4 {
-        font-size: 22px;
-    }
+  h4 {
+    font-size: 22px;
+  }
 
-    button, input {
-        font-size: 13px;
-    }
+  button,
+  input {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 480px) {
-    .netflex-logo img {
-        width: 100px;
-    }
+  .netflex-logo img {
+    width: 100px;
+  }
 
-    .color {
-        padding: 20px;
-        width: 95%;
-        gap: 10px;
-    }
+  .color {
+    padding: 20px;
+    width: 95%;
+    gap: 10px;
+  }
 
-    h4 {
-        font-size: 20px;
-    }
+  h4 {
+    font-size: 20px;
+  }
 }
