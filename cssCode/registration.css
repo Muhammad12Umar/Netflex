@@ -117,7 +117,7 @@ button a {
 /* Responsive Design */
 @media (max-width: 768px) {
   .color {
-    width: 90%;
+    width:  100%;
     padding: 30px;
   }
 
