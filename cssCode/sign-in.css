@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("../Assets/Backimg.jpg");
+  background-image: url("../Assets/Backimg.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -34,8 +34,7 @@ body {
   background: rgba(255, 255, 255, 0.05); /* light transparent white */
   padding: 40px;
   border-radius: 20px;
-  box-shadow: 
-    0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px); /* smooth glass blur */
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -46,7 +45,6 @@ body {
   gap: 20px;
   transition: all 0.4s ease-in-out;
 }
-
 
 /* Headings */
 h4 {

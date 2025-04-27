@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Registration Form</title>
     <link rel="icon" href="../Assets/NetflexTitle.png" type="image/png" />
-    <link rel="stylesheet" href="cssCode/sign-in.css" />
+    <link rel="stylesheet" href="cssCode/registration.css" />
   </head>
 
   <body>
@@ -15,52 +15,52 @@
 
     <div class="color">
       <h4>Sign-Up</h4>
-      <!-- input Email -->
-      <input
-        type="text"
-        name="userName"
-        placeholder="Enter Your Full Name"
-        required
-        id="userName"
-      />
-      <input
-        type="text"
-        name="userName"
-        placeholder="Enter Your Phone Number"
-        required
-        id="userPhoneNumber"
-      />
-      <input
-      type="text"
-      name="userEmail"
-      placeholder="Enter Your  Email "
-      required
-      id="userEmail"
-    />
-      <!-- input password -->
-      <input
-        type="password"
-        name="userPassword"
-        placeholder="Enter Password"
-        required
-        id="userPassword"
-      />
-      <input
-      type="password"
-      name="userConfirmPassword"
-      placeholder="Confirm Your Password"
-      required
-      id="userConfirmPassword"
-    />
-      <!-- sign button  -->
-      <button id="SignInToAccount" onclick="sign()">
-        <a href="#" >Register</a>
-      </button>
-      
-        </div>
-        <a href="#">Forgot Password?</a>
-      </div>
+
+      <form id="registrationForm">
+        <input
+          type="text"
+          name="userName"
+          placeholder="Enter Your Full Name"
+          required
+          id="userName"
+        />
+        <input
+          type="text"
+          name="userPhoneNumber"
+          placeholder="Enter Your Phone Number"
+          required
+          id="userPhoneNumber"
+        />
+        <input
+          type="text"
+          name="userEmail"
+          placeholder="Enter Your Email"
+          required
+          id="userEmail"
+        />
+        <input
+          type="password"
+          name="userPassword"
+          placeholder="Enter Password"
+          required
+          id="userPassword"
+        />
+        <input
+          type="password"
+          name="userConfirmPassword"
+          placeholder="Confirm Your Password"
+          required
+          id="userConfirmPassword"
+        />
+
+        <button type="submit" id="SignInToAccount" onclick="sign()">
+          Register
+        </button>
+      </form>
+
+      <!-- <a href="#" class="sign_up">Sign Up</a> -->
     </div>
+
     <script src="script.js/ScriptsSignin.js"></script>
   </body>
 </html>
