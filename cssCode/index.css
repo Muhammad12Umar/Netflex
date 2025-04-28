@@ -4,7 +4,7 @@
   margin: 0;
 }
 .container {
-  background-image: url("../Assets/Backimg.jpg");
+  background-image: url("../Assets/Backimg.png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
