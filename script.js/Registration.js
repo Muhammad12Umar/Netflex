@@ -59,6 +59,9 @@ form.addEventListener("submit", function (e) {
 
   // 7) save updated array back to localStorage
   localStorage.setItem("userData", JSON.stringify(stored));
+  
+  // live users 
+  localStorage.setItem("liveUser",names);
 
   // 8) all done!
   window.location.href = "index.html";

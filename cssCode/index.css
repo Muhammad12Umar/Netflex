@@ -360,6 +360,11 @@ h2 {
   width: 40%;
   align-items: center;
 }
+.liveUser{
+  color: white;
+font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
 @media (max-width: 768px) {
   .email {
     display: flex;
